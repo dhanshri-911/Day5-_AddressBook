@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/home.css">
+    <title>Address Book App</title>
+</head>
+<body>
+
+	<header class="header-content header">
+		<div class="logo-content">
+			<img src="/assets/images/icon.png" alt="" />
+			<div>
+				<span class="add-text">ADDRESS</span><br />
+				<span class="add-text add-book">BOOK</span>
+			</div>
+		</div>
+  </header>
+
+	<div class="main-content">
+		<div class="header-content">
+			<div class="add-detail-text">Person Details<div class="emp-count"></div>
+			</div>
+			<a href="../pages/Address_Book.html" class="add-button">
+			<img src="/assets/icons/add-24px.svg" alt="" /> Add User</a>
+		</div>
+
+		<div class="table-main">
+			<table id="table-display" class="table">
+				<div class="main">
+				 <tr>
+					<th>Fullname</th>
+					<th>Address</th>
+					<th>City</th>
+					<th>State</th>
+					<th>Zip Code</th>
+                    <th>Phone Number</th>
+					<!--   -->
+				</tr>
+				</div>
+
+				<tr>
+					<td>Rajshri Zingade</td>
+					<td>Hadpsar</td>
+					<td>Pune</td>
+					<td>Maharashtra</td>
+					<td>412307</td>
+					<td>86577777</td>
+                    <td>
+						<img id="1" onclick="remove(this)" alt="delete" src="/assets/icons/delete-black-18dp.svg">
+						<img id="1" alt="edit" onclick="upgate(this)" src="/assets/icons/create-black-18dp.svg">
+					</td> 
+				</tr> 
+				<tr>
+					<td>Lalita Kunbhar</td>
+					<td>Katraj</td>
+					<td>Lohara</td>
+					<td>Maharashtra</td>
+					<td>436525</td>
+					<td>89888888</td>
+                    <td>
+						<img id="1" onclick="remove(this)" alt="delete" src="/assets/icons/delete-black-18dp.svg">
+						<img id="1" alt="edit" onclick="upgate(this)" src="/assets/icons/create-black-18dp.svg">
+					</td> 
+				</tr>
+				<tr>
+					<td>Derrick Das</td>
+					<td>Mamun Cantt</td>
+					<td>Pathankot</td>
+					<td>Punjab</td>
+					<td>412456</td>
+					<td>8899665577</td>
+                    <td>
+						<img id="1" onclick="remove(this)" alt="delete" src="/assets/icons/delete-black-18dp.svg">
+						<img id="1" alt="edit" onclick="upgate(this)" src="/assets/icons/create-black-18dp.svg">
+					</td> 
+					<tr>
+						<td>Manoj Ghotale</td>
+						<td>Mudged</td>
+						<td>Latur</td>
+						<td>Maharashtra</td>
+						<td>412307</td>
+						<td>8987654321</td>
+						<td>
+							<img id="1" onclick="remove(this)" alt="delete" src="/assets/icons/delete-black-18dp.svg">
+							<img id="1" alt="edit" onclick="upgate(this)" src="assets/icons/create-black-18dp.svg">
+						</td> 
+						<tr>
+							<td>Nanam Thapa</td>
+							<td>Subathu</td>
+							<td>Solan</td>
+							<td>Himachal Pradesh</td>
+							<td>465432</td>
+							<td>9865321478</td>
+							<td>
+								<img id="1" onclick="remove(this)" alt="delete" src="/assets/icons/delete-black-18dp.svg">
+								<img id="1" alt="edit" onclick="upgate(this)" src="assets/icons/create-black-18dp.svg">
+							</td> 
+							<tr>
+								<td>Priya Jadhav</td>
+								<td>Ekamba</td>
+								<td>Bidar</td>
+								<td>Karnataka</td>
+								<td>4321654</td>
+								<td>9638527413</td>
+								<td>
+									<img id="1" onclick="remove(this)" alt="delete" src="/assets/icons/delete-black-18dp.svg>
+									<img id="1" alt="edit" onclick="upgate(this)" src="/assets/icons/create-black-18dp.svg">
+								</td> 
+								<tr>
+									<td>Rani Chate</td>
+									<td>Main Road</td>
+									<td>Nashik</td>
+									<td>Maharashtra</td>
+									<td>412345</td>
+									<td>9874563210</td>
+									<td>
+										<img id="1" onclick="remove(this)" alt="delete" src=/assets/icons/delete-black-18dp.svg>
+										<img id="1" alt="edit" onclick="upgate(this)" src="/assests/icons/create-black-18dp.svg">
+									</td> 
+			</table>
+		</div>
+	</div>
+	<script src="../js/new_home.js"></script>
+	
+</body>
+</html>
